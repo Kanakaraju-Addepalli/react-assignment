@@ -1,0 +1,45 @@
+.container {
+    max-width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    border-radius: 8px; 
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  .available-heading {
+    color: #007bff;
+  }
+  .no-vehicles {
+    font-size: 18px;
+    color: #888;
+    margin: 20px 0;
+  }
+  
+  .vehicle-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+    transition: background-color 0.3s ease; 
+  }
+  
+  li:hover {
+    background-color: #f5f5f5; 
+    cursor: pointer;
+  }
+  
+  .vehicle-name {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
